@@ -1,0 +1,150 @@
+
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+
+body{
+    margin: 10px;
+    padding: 10px;
+    font-family: Poppins;
+}
+
+
+nav{
+    width: 100%;
+    margin: auto;
+    line-height: 40px;
+    display: flex;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1;
+    border-bottom: 4px solid hotpink;
+    background-color: pink;
+}
+
+
+.wrapper{
+    width: 1600px;
+    margin: 0px;
+    position: relative;
+}
+
+
+.Logo a{
+    font-family: Poopins;
+    font-size: 35px;
+    font-weight: 10px;
+    float: left;
+    color: hotpink;
+}
+
+
+.Menu{
+    float: right;
+}
+
+
+nav ul{
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+    overflow: hidden;
+}
+
+
+nav ul li{
+    float: left;
+}
+
+
+nav ul li a{
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 10px 15px 10px;
+    color: hotpink;
+    line-height:0px;
+}
+
+
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+
+a.tbl-pink {
+    background: pink;
+    border-radius: 15px;
+    margin-top: 15px;
+    padding: 20px 10px 20px 10px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+
+a.tbl-biru:hover {
+    background: hotpink;
+    text-decoration: none;
+}
+
+
+
+a.tbl-pink{
+    background: #fc5185;
+    border-radius: 15px;
+    margin-top: 15px;
+    padding: 20px 10px 20px 10px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+
+a.tbl-pink:hover{
+    background: hotpink;
+    text-decoration: none;
+}
+
+
+
+p{
+    margin: 10px 20px 10px 20px;
+    padding: 10px 0px 10px 0px;
+}
+
+
+
+.kanan{
+    text-align: right;
+}
+
+
+
+.tengah{
+    text-align: center;
+    
+}
+
+
+.footer-section{
+    text-align: center;
+}
+
+
+.copyright{
+    text-align: center;
+}
+
+.tengah{
+    padding: 40px;
+}
